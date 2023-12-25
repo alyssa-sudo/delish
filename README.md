@@ -3,7 +3,6 @@
 > The Chef's Kiss Python Interactive Shell
 Delish is an interactive shell written in python. It's goal is to feature parity [Hilbish](https://github.com/Rosettea/Hilbish) while having it's own spin and being based in python.
 
-
 # Start Cooking (Install)
 
 ## Ingredients (Dependencies)
@@ -26,5 +25,9 @@ cd delish
 make
 sudo make install
 ```
+
+
+### But why Python?
+I chose Python because I thought it'd be a fun project to try, and because of the novelty of using Python for such a project.
 
 
