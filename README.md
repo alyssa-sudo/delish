@@ -5,5 +5,26 @@ Delish is an interactive shell written in python. It's goal is to feature parity
 
 
 # Start Cooking (Install)
+
+## Ingredients (Dependencies)
+- [Delish Font](https://github.com/alyssa-sudo/delish/releases/tag/font) (Needed for shell prompt)
+- Make
+
+To install the delish font, download it from releases and place it in your font folder
+```
+# For User
+cp <path/to/font> .local/share/fonts
+
+# For System
+cp <path/to/font> /usr/share/fonts
+```
+
 To install delish, git clone the repository and make install.
+```
+git clone https://github.com/alyssa-sudo/delish
+cd delish
+make
+sudo make install
+```
+
 
